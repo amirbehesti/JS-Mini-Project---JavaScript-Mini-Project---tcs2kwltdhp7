@@ -30,7 +30,7 @@ _It's currently at a very early development stage but hoping to get it available
 - _HTML_
 - _CSS_
 - _Json_
-- _API_
+- _API(REST Countries API)_
 #### Workings
 ​
 - _At first Home page shows All the country details by row._
