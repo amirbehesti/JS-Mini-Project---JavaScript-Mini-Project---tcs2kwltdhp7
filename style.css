@@ -8,44 +8,6 @@
   --background-color: #fff;
   --text-color: #000;
 }
-/* body{
-    background-color: cadetblue;
-} */
-
-/* .container{
-    background-color: whitesmoke;
-    position: absolute;
-    padding: 30px 25px;
-    transform: translate(-50%,-50%);
-    top:50%;
-    left: 50%;
-    width: 80vw;
-    max-width: 37.5em;
-    border-radius: 10px;
-    box-shadow: ;
-} */
-
-/* .search-wrapper{
-    display: grid;
-    grid-template-columns: 9fr 3fr;
-    gap: 20px;
-} */
-/* .search-wrapper button{
-    font-size: 1em;
-    background-color: chocolate;
-    color: white;
-    padding: 0.8em 0;
-    border: none;
-    border-radius: 1.5em;
-} */
-/* .search-wrapper input{
-    font-size: 1em;
-    padding: 0 0.62em;
-    border: none;
-    border-bottom: 2px solid chocolate;
-    outline: none;
-    color: darkblue;
-} */
 #result1 {
   margin-top: 1.25em;
   padding: 0 8%;
@@ -144,7 +106,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 4%;
-  /* border-bottom: 1px solid black; */
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   height: 70px;
   color: black;
@@ -157,7 +118,6 @@ header h1{
 
 header #mode-btn {
   border: none;
-  /* border-bottom: 2px solid chocolate; */
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   font-size: inherit;
   margin: 0;
@@ -188,15 +148,17 @@ header #mode-btn {
   height: 150px;
   padding: 0 8%;
   display: flex;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
 
 #search {
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-left: 6%; */
 }
 
 #search button {
@@ -223,7 +185,6 @@ header #mode-btn {
   outline: none;
   color: darkblue;
   box-shadow: 0px 1px 5px rgba(27, 27, 27, 0.253);
-
 }
 
 #country-inp:hover{
@@ -239,7 +200,6 @@ header #mode-btn {
 
 #continent-wrapper select {
   border: none;
-  /* border-bottom: 2px solid chocolate; */
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
   color: chocolate;
   font-size: inherit;
@@ -257,3 +217,18 @@ header #mode-btn {
   box-shadow: 0px 1px 8px rgb(78, 121, 14);
   border: none;
 }
+
+
+
+/* @media screen and (max-width: 600px) {
+  .search-wrapper{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    gap:10px;
+  }
+  .body-container{
+    margin-top: 30px;
+  }
+  
+} */
